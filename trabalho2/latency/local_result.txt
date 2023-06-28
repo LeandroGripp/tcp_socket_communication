@@ -1,0 +1,55 @@
+Message size: 1 bytes
+        [1] Time spent: 0.607612s
+        [2] Time spent: 0.615997s
+        [3] Time spent: 0.641263s
+                Average time spent: 0.621624s
+Message size: 100 bytes
+        [1] Time spent: 0.652396s
+        [2] Time spent: 0.705212s
+        [3] Time spent: 0.573135s
+                Average time spent: 0.643581s
+Message size: 200 bytes
+        [1] Time spent: 0.726230s
+        [2] Time spent: 0.665663s
+        [3] Time spent: 0.626710s
+                Average time spent: 0.672868s
+Message size: 300 bytes
+        [1] Time spent: 0.652993s
+        [2] Time spent: 0.627727s
+        [3] Time spent: 0.572946s
+                Average time spent: 0.617889s
+Message size: 400 bytes
+        [1] Time spent: 0.623022s
+        [2] Time spent: 0.743500s
+        [3] Time spent: 0.639078s
+                Average time spent: 0.668533s
+Message size: 500 bytes
+        [1] Time spent: 0.614665s
+        [2] Time spent: 0.646065s
+        [3] Time spent: 0.621714s
+                Average time spent: 0.627481s
+Message size: 600 bytes
+        [1] Time spent: 0.638723s
+        [2] Time spent: 0.641443s
+        [3] Time spent: 0.610128s
+                Average time spent: 0.630098s
+Message size: 700 bytes
+        [1] Time spent: 0.585813s
+        [2] Time spent: 0.602168s
+        [3] Time spent: 0.649859s
+                Average time spent: 0.612613s
+Message size: 800 bytes
+        [1] Time spent: 0.637284s
+        [2] Time spent: 0.710064s
+        [3] Time spent: 0.605599s
+                Average time spent: 0.650982s
+Message size: 900 bytes
+        [1] Time spent: 0.567969s
+        [2] Time spent: 0.609381s
+        [3] Time spent: 0.641573s
+                Average time spent: 0.606308s
+Message size: 1000 bytes
+        [1] Time spent: 0.724714s
+        [2] Time spent: 0.655509s
+        [3] Time spent: 0.583724s
+                Average time spent: 0.654649s

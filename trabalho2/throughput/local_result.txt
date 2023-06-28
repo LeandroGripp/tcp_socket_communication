@@ -1,0 +1,162 @@
+VAZÃO
+
+Message size: 1 KB
+        [1] Time spent: 0.710s | Throughput: 144.232 Mbps
+        [2] Time spent: 0.702s | Throughput: 145.865 Mbps
+        [3] Time spent: 0.700s | Throughput: 146.333 Mbps
+                Average time spent: 0.704s | Average throughput: 145.476 Mbps
+Message size: 2 KB
+        [1] Time spent: 0.721s | Throughput: 283.972 Mbps
+        [2] Time spent: 0.730s | Throughput: 280.552 Mbps
+        [3] Time spent: 0.726s | Throughput: 282.267 Mbps
+                Average time spent: 0.726s | Average throughput: 282.264 Mbps
+Message size: 3 KB
+        [1] Time spent: 0.752s | Throughput: 408.458 Mbps
+        [2] Time spent: 0.735s | Throughput: 418.106 Mbps
+        [3] Time spent: 0.741s | Throughput: 414.350 Mbps
+                Average time spent: 0.743s | Average throughput: 413.638 Mbps
+Message size: 4 KB
+        [1] Time spent: 0.762s | Throughput: 537.833 Mbps
+        [2] Time spent: 0.783s | Throughput: 523.204 Mbps
+        [3] Time spent: 0.772s | Throughput: 530.701 Mbps
+                Average time spent: 0.772s | Average throughput: 530.579 Mbps
+Message size: 5 KB
+        [1] Time spent: 0.787s | Throughput: 650.347 Mbps
+        [2] Time spent: 0.795s | Throughput: 644.258 Mbps
+        [3] Time spent: 0.790s | Throughput: 647.829 Mbps
+                Average time spent: 0.791s | Average throughput: 647.478 Mbps
+Message size: 6 KB
+        [1] Time spent: 0.807s | Throughput: 761.479 Mbps
+        [2] Time spent: 0.801s | Throughput: 767.471 Mbps
+        [3] Time spent: 0.794s | Throughput: 773.390 Mbps
+                Average time spent: 0.801s | Average throughput: 767.447 Mbps
+Message size: 7 KB
+        [1] Time spent: 0.871s | Throughput: 822.596 Mbps
+        [2] Time spent: 0.854s | Throughput: 838.866 Mbps
+        [3] Time spent: 0.812s | Throughput: 883.213 Mbps
+                Average time spent: 0.846s | Average throughput: 848.225 Mbps
+Message size: 8 KB
+        [1] Time spent: 0.883s | Throughput: 927.870 Mbps
+        [2] Time spent: 0.896s | Throughput: 914.786 Mbps
+        [3] Time spent: 0.887s | Throughput: 923.551 Mbps
+                Average time spent: 0.888s | Average throughput: 922.069 Mbps
+Message size: 9 KB
+        [1] Time spent: 0.917s | Throughput: 1005.219 Mbps
+        [2] Time spent: 0.894s | Throughput: 1031.037 Mbps
+        [3] Time spent: 0.894s | Throughput: 1030.484 Mbps
+                Average time spent: 0.902s | Average throughput: 1022.247 Mbps
+Message size: 10 KB
+        [1] Time spent: 0.998s | Throughput: 1025.784 Mbps
+        [2] Time spent: 0.926s | Throughput: 1105.587 Mbps
+        [3] Time spent: 0.898s | Throughput: 1140.097 Mbps
+                Average time spent: 0.941s | Average throughput: 1090.489 Mbps
+Message size: 11 KB
+        [1] Time spent: 3.493s | Throughput: 322.497 Mbps
+        [2] Time spent: 0.901s | Throughput: 1249.606 Mbps
+        [3] Time spent: 0.910s | Throughput: 1238.020 Mbps
+                Average time spent: 1.768s | Average throughput: 936.708 Mbps
+Message size: 12 KB
+        [1] Time spent: 0.925s | Throughput: 1327.762 Mbps
+        [2] Time spent: 0.936s | Throughput: 1313.060 Mbps
+        [3] Time spent: 0.976s | Throughput: 1259.317 Mbps
+                Average time spent: 0.946s | Average throughput: 1300.047 Mbps
+Message size: 13 KB
+        [1] Time spent: 0.963s | Throughput: 1383.006 Mbps
+        [2] Time spent: 2.139s | Throughput: 622.367 Mbps
+        [3] Time spent: 2.145s | Throughput: 620.631 Mbps
+                Average time spent: 1.749s | Average throughput: 875.335 Mbps
+Message size: 14 KB
+        [1] Time spent: 0.969s | Throughput: 1479.640 Mbps
+        [2] Time spent: 0.974s | Throughput: 1472.487 Mbps
+        [3] Time spent: 0.958s | Throughput: 1496.289 Mbps
+                Average time spent: 0.967s | Average throughput: 1482.805 Mbps
+Message size: 15 KB
+        [1] Time spent: 0.973s | Throughput: 1578.169 Mbps
+        [2] Time spent: 0.965s | Throughput: 1592.213 Mbps
+        [3] Time spent: 0.963s | Throughput: 1595.586 Mbps
+                Average time spent: 0.967s | Average throughput: 1588.656 Mbps
+Message size: 16 KB
+        [1] Time spent: 0.960s | Throughput: 1705.961 Mbps
+        [2] Time spent: 0.958s | Throughput: 1709.846 Mbps
+        [3] Time spent: 1.513s | Throughput: 1082.657 Mbps
+                Average time spent: 1.144s | Average throughput: 1499.488 Mbps
+Message size: 17 KB
+        [1] Time spent: 3.244s | Throughput: 536.563 Mbps
+        [2] Time spent: 0.974s | Throughput: 1788.159 Mbps
+        [3] Time spent: 0.960s | Throughput: 1813.124 Mbps
+                Average time spent: 1.726s | Average throughput: 1379.282 Mbps
+Message size: 18 KB
+        [1] Time spent: 0.978s | Throughput: 1885.600 Mbps
+        [2] Time spent: 0.971s | Throughput: 1899.114 Mbps
+        [3] Time spent: 0.974s | Throughput: 1892.257 Mbps
+                Average time spent: 0.974s | Average throughput: 1892.323 Mbps
+Message size: 19 KB
+        [1] Time spent: 2.808s | Throughput: 692.945 Mbps
+        [2] Time spent: 2.195s | Throughput: 886.196 Mbps
+        [3] Time spent: 0.984s | Throughput: 1978.028 Mbps
+                Average time spent: 1.996s | Average throughput: 1185.723 Mbps
+Message size: 20 KB
+        [1] Time spent: 0.976s | Throughput: 2099.073 Mbps
+        [2] Time spent: 0.992s | Throughput: 2063.940 Mbps
+        [3] Time spent: 0.985s | Throughput: 2079.460 Mbps
+                Average time spent: 0.984s | Average throughput: 2080.824 Mbps
+Message size: 21 KB
+        [1] Time spent: 0.999s | Throughput: 2152.641 Mbps
+        [2] Time spent: 3.046s | Throughput: 705.866 Mbps
+        [3] Time spent: 1.998s | Throughput: 1076.369 Mbps
+                Average time spent: 2.014s | Average throughput: 1311.625 Mbps
+Message size: 22 KB
+        [1] Time spent: 1.002s | Throughput: 2247.411 Mbps
+        [2] Time spent: 1.016s | Throughput: 2217.517 Mbps
+        [3] Time spent: 1.006s | Throughput: 2238.752 Mbps
+                Average time spent: 1.008s | Average throughput: 2234.560 Mbps
+Message size: 23 KB
+        [1] Time spent: 1.025s | Throughput: 2298.519 Mbps
+        [2] Time spent: 1.025s | Throughput: 2296.669 Mbps
+        [3] Time spent: 4.124s | Throughput: 571.063 Mbps
+                Average time spent: 2.058s | Average throughput: 1722.084 Mbps
+Message size: 24 KB
+        [1] Time spent: 1.035s | Throughput: 2374.222 Mbps
+        [2] Time spent: 1.038s | Throughput: 2367.698 Mbps
+        [3] Time spent: 1.021s | Throughput: 2407.075 Mbps
+                Average time spent: 1.031s | Average throughput: 2382.999 Mbps
+Message size: 25 KB
+        [1] Time spent: 1.036s | Throughput: 2470.346 Mbps
+        [2] Time spent: 1.042s | Throughput: 2456.394 Mbps
+        [3] Time spent: 4.067s | Throughput: 629.420 Mbps
+                Average time spent: 2.049s | Average throughput: 1852.053 Mbps
+Message size: 26 KB
+        [1] Time spent: 1.050s | Throughput: 2536.097 Mbps
+        [2] Time spent: 1.071s | Throughput: 2486.368 Mbps
+        [3] Time spent: 1.050s | Throughput: 2536.769 Mbps
+                Average time spent: 1.057s | Average throughput: 2519.745 Mbps
+Message size: 27 KB
+        [1] Time spent: 1.067s | Throughput: 2590.030 Mbps
+        [2] Time spent: 1.071s | Throughput: 2581.689 Mbps
+        [3] Time spent: 1.084s | Throughput: 2551.323 Mbps
+                Average time spent: 1.074s | Average throughput: 2574.347 Mbps
+Message size: 28 KB
+        [1] Time spent: 4.164s | Throughput: 688.613 Mbps
+        [2] Time spent: 1.123s | Throughput: 2552.107 Mbps
+        [3] Time spent: 1.080s | Throughput: 2654.078 Mbps
+                Average time spent: 2.122s | Average throughput: 1964.933 Mbps
+Message size: 29 KB
+        [1] Time spent: 1.105s | Throughput: 2688.160 Mbps
+        [2] Time spent: 1.104s | Throughput: 2688.764 Mbps
+        [3] Time spent: 4.220s | Throughput: 703.669 Mbps
+                Average time spent: 2.143s | Average throughput: 2026.864 Mbps
+Message size: 30 KB
+        [1] Time spent: 1.145s | Throughput: 2682.801 Mbps
+        [2] Time spent: 1.176s | Throughput: 2611.903 Mbps
+        [3] Time spent: 1.121s | Throughput: 2741.452 Mbps
+                Average time spent: 1.147s | Average throughput: 2678.719 Mbps
+Message size: 31 KB
+        [1] Time spent: 4.204s | Throughput: 755.045 Mbps
+        [2] Time spent: 1.132s | Throughput: 2804.040 Mbps
+        [3] Time spent: 1.134s | Throughput: 2800.351 Mbps
+                Average time spent: 2.157s | Average throughput: 2119.812 Mbps
+Message size: 32 KB
+        [1] Time spent: 1.139s | Throughput: 2876.687 Mbps
+        [2] Time spent: 1.153s | Throughput: 2841.529 Mbps
+        [3] Time spent: 4.189s | Throughput: 782.299 Mbps
+                Average time spent: 2.160s | Average throughput: 2166.838 Mbps

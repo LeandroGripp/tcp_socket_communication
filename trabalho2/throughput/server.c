@@ -8,14 +8,13 @@
 #include <unistd.h>
 
 #define PORT 8080
-#define MAXLINE 1000 + 1 // 1KB + string terminator
+#define MAXLINE 32 * 1000 + 1// 32KB + string terminator
 
 // Driver code
 int main()
 {
 	int sockfd;
 	char buffer[MAXLINE];
-	// const char *hello = "Hello from server";
 	struct sockaddr_in servaddr, cliaddr;
 
 	// Creating socket file descriptor
@@ -35,7 +34,7 @@ int main()
 
 	// Bind the socket with the server address
 	if (bind(sockfd, (const struct sockaddr *)&servaddr,
-					 sizeof(servaddr)) < 0)
+			 sizeof(servaddr)) < 0)
 	{
 		perror("bind failed");
 		exit(EXIT_FAILURE);
@@ -48,14 +47,14 @@ int main()
 	while (1)
 	{
 		n = recvfrom(sockfd, (char *)buffer, MAXLINE,
-								 MSG_WAITALL, (struct sockaddr *)&cliaddr,
-								 &len);
+					 MSG_WAITALL, (struct sockaddr *)&cliaddr,
+					 &len);
 		buffer[n] = '\0';
 		// printf("Client : %s\n", buffer);
 		sendto(sockfd, (const char *)buffer, strlen(buffer),
-					 MSG_CONFIRM, (const struct sockaddr *)&cliaddr,
-					 len);
-		// printf("Hello message sent.\n");
+			   MSG_CONFIRM, (const struct sockaddr *)&cliaddr,
+			   len);
+		// printf("Response sent.\n");
 	}
 
 	return 0;

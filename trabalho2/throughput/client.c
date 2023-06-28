@@ -10,7 +10,7 @@
 #include <time.h>
 
 #define PORT 8080
-#define MAXLINE 1000 + 1 // 1KB + string terminator
+#define MAXLINE 32 * 1000 + 1 // 32KB + string terminator
 
 // Driver code
 int main(int argc, char *argv[])
@@ -54,18 +54,17 @@ int main(int argc, char *argv[])
 	int n;
 	socklen_t len;
 
-	int messageSizes[] = {1, 1, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000};
-	int messageSize;
-
-	for (int size_idx = 1; size_idx < 12; size_idx++)
+	for (int message_size = 1; message_size < 33; message_size++)
 	{
-		messageSize = messageSizes[size_idx];
-		printf("Message size: %d bytes\n", messageSize);
+		// long long totalBits = message_size * 1024 * 100000 * 8;
 
-		memset(buffer, 'A', messageSize);
-		buffer[messageSize] = '\0';
+		printf("Message size: %d KB\n", message_size);
+
+		memset(buffer, 'A', message_size * 1000);
+		buffer[message_size * 1000] = '\0';
 
 		double times_spent[2];
+		// double throughputs[2];
 		for (int i = 0; i < 3; i++)
 		{
 			clock_t start = clock();
@@ -82,12 +81,23 @@ int main(int argc, char *argv[])
 			}
 			clock_t end = clock();
 			times_spent[i] = (double)(end - start) / CLOCKS_PER_SEC;
-			printf("\t[%d] Time spent: %fs\n", i + 1, times_spent[i]);
+			// throughputs[i] = (double)100000 * 1024 * message_size / times_spent[i] / 1000000;
 		}
+		double throughput1, throughput2, throughput3;
+
+		throughput1 = (double)100000 * 1024 * message_size / times_spent[0] / 1000000;
+		printf("\t[1] Time spent: %.3fs | Throughput: %.3f Mbps\n", times_spent[0], throughput1);
+
+		throughput2 = (double)100000 * 1024 * message_size / times_spent[1] / 1000000;
+		printf("\t[2] Time spent: %.3fs | Throughput: %.3f Mbps\n", times_spent[1], throughput2);
+
+		throughput3 = (double)100000 * 1024 * message_size / times_spent[2] / 1000000;
+		printf("\t[3] Time spent: %.3fs | Throughput: %.3f Mbps\n", times_spent[2], throughput3);
 
 		double avg_time_spent = (times_spent[0] + times_spent[1] + times_spent[2]) / 3;
+		double avg_throughput = (throughput1 + throughput2 + throughput3) / 3;
 
-		printf("\t\tAverage time spent: %fs\n", avg_time_spent);
+		printf("\t\tAverage time spent: %.3fs | Average throughput: %.3f Mbps\n", avg_time_spent, avg_throughput);
 	}
 
 	close(sockfd);
